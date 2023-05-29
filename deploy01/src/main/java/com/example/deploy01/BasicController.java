@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class BasicController {
-   @Value("${com.example.deploy01.devName}")
+   @Value("${devName}")
     private String devName;
 
     @GetMapping
